@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 375px){
+html {
+    background-color: #d6e2f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    border-radius: 20px;
+    
+}
+
+.qrCodeImg {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.img {
+    border-radius: 20px;
+}
+
+.txtContainer {
+    text-align: center;
+    color: #1f3251;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.paragraph {
+    color: #7b879d;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding: 0 20px 40px 20px;
+}
+}
